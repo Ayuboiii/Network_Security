@@ -1,0 +1,9 @@
+[2026-03-11 21:13:03,702] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-11 21:13:03,722] 107 dagshub - INFO - Accessing as Ayuboiii
+[2026-03-11 21:13:04,854] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Ayuboiii/Network_Security "HTTP/1.1 200 OK"
+[2026-03-11 21:13:05,819] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-11 21:13:05,830] 107 dagshub - INFO - Initialized MLflow to track repo "Ayuboiii/Network_Security"
+[2026-03-11 21:13:05,830] 107 dagshub - INFO - Repository Ayuboiii/Network_Security initialized!
+[2026-03-11 21:13:14,851] 42 root - INFO - Start data Ingestion
+[2026-03-11 21:13:21,784] 65 root - INFO - Performed train test split on the dataframe
+[2026-03-11 21:13:21,784] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
