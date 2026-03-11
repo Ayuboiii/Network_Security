@@ -43,7 +43,7 @@ class DataIngestion:
             df.replace({"na":np.nan},inplace=True)
             return df
         except Exception as e:
-            raise NetworkSecurityException
+            raise NetworkSecurityException(e,sys)
         
     def export_data_into_feature_store(self,dataframe: pd.DataFrame):
         try:
@@ -68,7 +68,7 @@ class DataIngestion:
                 "Exited split_data_as_train_test method of Data_Ingestion class"
             )
             
-            dir_path = os.path.dirname(self.data_ingestion_config.train_file_path)
+            dir_path = os.path.dirname(self.data_ingestion_config.training_file_path)
             
             os.makedirs(dir_path, exist_ok=True)
             
