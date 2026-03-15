@@ -1,0 +1,6 @@
+[2026-03-15 19:36:46,662] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-15 19:36:46,667] 107 dagshub - INFO - Accessing as Ayuboiii
+[2026-03-15 19:36:48,509] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Ayuboiii/Network_Security "HTTP/1.1 200 OK"
+[2026-03-15 19:36:49,626] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-15 19:36:49,639] 107 dagshub - INFO - Initialized MLflow to track repo "Ayuboiii/Network_Security"
+[2026-03-15 19:36:49,640] 107 dagshub - INFO - Repository Ayuboiii/Network_Security initialized!

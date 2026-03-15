@@ -75,7 +75,11 @@ async def predict_route(request: Request,file: UploadFile = File(...)):
         print(df['predicted_column'])
         #df['predicted_column'].replace(-1, 0)
         #return df.to_json()
-        df.to_csv('prediction_output/output.csv')
+        
+        # ---> FOLDER CREATION FIX ADDED HERE <---
+        os.makedirs('prediction_output', exist_ok=True)
+        df.to_csv('prediction_output/output.csv', index=False)
+        
         table_html = df.to_html(classes='table table-striped')
         #print(table_html)
         return templates.TemplateResponse("table.html", {"request": request, "table": table_html})
